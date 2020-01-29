@@ -8,7 +8,6 @@ export const UserTasks = selectedProject => {
     const [archivedTasks, setArchivedTasks] = useState([])
 
     useEffect(() => {
-
         let unsubscribe = firebase
             .firestore()
             .collection('tasks')
