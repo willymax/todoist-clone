@@ -5,7 +5,6 @@ import { UserTasks } from '../hooks'
 
 export const Tasks = () => {
     const { tasks } = UserTasks("1")
-    console.log('tasks', tasks)
 
     let projectName = ''
 
